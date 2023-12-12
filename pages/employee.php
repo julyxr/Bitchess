@@ -28,16 +28,9 @@
             <td>".$row["city"]."</td>
             <td>".$row["webserver"]."</td>
             <td>".$row["role"]."</td>
-    while($row = mysqli_fetch_assoc($result)){
-    echo"
-        <tr>
-            <td>".$row["username"]."</td>
-            <td>".$row["city"]."</td>
-            <td>".$row["webserver"]."</td>
-            <td>".$row["role"]."</td>
-            </tr>
-            ";"
-        }
+        </tr>
+        ";
+    }
 ?>  
       
     </table>
